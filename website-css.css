@@ -1,0 +1,361 @@
+
+/* CSS Document */
+
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	min-width: 900px;
+}
+
+.dropbtn {
+    background-color: darkslategray;
+    color: white;
+    padding: 16px;
+    font-family: 'Segoe UI Black', Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    box-shadow: 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	font-style: bold;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: lightgray;
+}
+
+
+.top-section p { 
+	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
+	font-style: italic;
+	font-size: 35px;
+	left: 0;
+	position:absolute;
+    text-align:center;
+    top: 210px;
+    width: 100%;
+	color: white;
+
+}
+
+h1 {
+	font-family: 'Segoe UI Black', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 60px;
+	left: 0;
+	position:absolute;
+    text-align:center;
+    top: 240px;
+    width: 100%;
+	color: white;
+}
+
+#intro {
+	width: 100%;
+}
+
+#intro p {
+	float: left;
+	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
+	font-size: 25px;
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-bottom: 125px;
+	color: darkslategrey;
+}
+
+#intro img {
+	float: right;
+	margin-top: 50px;
+	margin-right: 150px;
+	border-radius: 25px;
+	margin-bottom: 80px;
+}
+
+#experience p{
+	text-align: center;
+	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	width: 100%;
+	color: darkslategray;
+}
+
+#shekarEng {
+	margin-top: 40px;
+	margin-bottom: 375px;
+}
+
+#shekarEng img {
+	float: left;
+	margin-left: 215px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+}
+
+#se-text {
+	float: left;
+	margin-left: 40px;
+}
+#se-text h4 {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	font-size: 27px;
+	text-align: left;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	color: peru;
+}
+
+
+#se-text p {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	margin-top: 0px;
+	font-size: 18px;
+	text-align: left;
+	color: dimgray;
+}
+
+#wics {
+	margin-top: 40px;
+	margin-bottom: 300px;
+}
+
+
+#wics img {
+	float: left;
+	margin-left: 215px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+}
+
+#wics-text {
+	float: left;
+	margin-left: 40px;
+}
+
+#wics-text h4 {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	font-size: 27px;
+	text-align: left;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	color: peru;
+}
+
+#wics-text p {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	margin-top: 0px;
+	font-size: 18px;
+	text-align: left;
+	color: dimgray;
+}
+
+#mad {
+	margin-top: 40px;
+	margin-bottom: 560px;
+}
+
+
+#mad img {
+	float: left;
+	margin-left: 215px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+}
+
+#mad-text {
+	float: left;
+	margin-left: 40px;
+}
+
+#mad-text h4 {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	font-size: 27px;
+	text-align: left;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	color: peru;
+}
+
+#mad-text p {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	margin-top: 0px;
+	font-size: 18px;
+	text-align: left;
+	color: dimgray;
+}
+
+
+#royals {
+	margin-top: 40px;
+	margin-bottom: 500px;
+}
+
+
+#royals img {
+	float: left;
+	margin-left: 215px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+}
+
+#royals-text {
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 150px;
+}
+
+#royals-text h4 {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	font-size: 27px;
+	text-align: left;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	color: peru;
+}
+
+#royals-text p {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	margin-top: 0px;
+	font-size: 18px;
+	text-align: left;
+	color: dimgray;
+}
+
+#interests {
+	text-align: center;
+}
+
+#interests p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
+	font-size: 40px;
+	color: darkslategray
+}
+
+ul.img-list {
+	list-style-type: none;
+	margin: 20px;
+	padding: 0;
+	text-align: center;
+}
+
+ul.img-list li {
+	display: inline-block;
+	margin: 20px;
+	height: 200px;
+	width: 300px;
+	position: relative;
+}
+
+ul.img-list li img {
+	border-radius: 30px;
+}
+
+
+span.picText {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	font-style: bold;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	cursor: pointer;
+	display: table;
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	-webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+    border-radius: 30px;
+}
+
+span.picText span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+ul.img-list li:hover span.picText {
+	opacity: 1;
+}
+
+
+#contact {
+	margin-bottom: 0;
+}
+
+.contact-txt {
+	margin-top: 200px;
+	text-align: center; 
+	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
+	font-size: 35px;
+	font-style: italic;
+}
+
+.contact-txt p {
+	margin-bottom: 0;
+	color: darkslategray;
+    position: relative;
+    top: -75px;
+    background: #fff;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+ul.icon-list {
+	margin-top: -25px;
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+ul.icon-list li {
+	display: inline-block;
+	margin: 2px;
+	position: relative;
+}
+
