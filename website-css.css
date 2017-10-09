@@ -6,8 +6,25 @@
 	width: 1265px;
 }
 
-
 .wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.wrapper-2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1265px;
+	position:fixed;
+	z-index: -1;
+}
+
+.wrapper-2 img {
+	width: 1265px;
+}
+
+.wrapper-3 {
+	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -17,7 +34,7 @@
     background-color: darkslategray;
     color: white; 
     padding: 16px;
-    font-family: 'Segoe UI Black', Tahoma, Verdana, sans-serif;
+    font-family: 'Calibri';
     font-size: 16px;
     border: none;
     border-radius: 10px;
@@ -65,27 +82,18 @@
     background-color: lightgray;
 }
 
-
-.top-section p { 
-	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
-	font-style: italic;
-	font-size: 35px;
-	left: 0;
-	position:absolute;
-    text-align:center;
-    top: 310px;
-    width: 100%;
-	color: white;
-
+.insert {
+	margin-bottom: 750px;
+	background-color: transparent;
 }
 
 h1 {
-	font-family: 'Segoe UI Black', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: Calibri;
 	font-size: 60px;
 	left: 0;
 	position:absolute;
     text-align:center;
-    top: 340px;
+    top: 550px;
     width: 100%;
 	color: white;
 }
@@ -93,12 +101,13 @@ h1 {
 #intro {
 	width: 100%;
 	display: inline-block;
-	margin-bottom: 20px;
+	background-color: white;
 }
 
 #intro p {
 	float: left;
-	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
+	font-family: 'Quicksand', 'Arial, Helvetica, sans-serif';
+	font-weight: bold;
 	font-size: 25px;
 	margin-top: 100px;
 	margin-left: 150px;
@@ -110,17 +119,66 @@ h1 {
 	margin-top: 50px;
 	margin-right: 150px;
 	border-radius: 25px;
+	margin-bottom: 50px;
+}
+
+#experience {
+	background-color: #F6F6F6;
 }
 
 #experience p{
 	text-align: center;
-	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
+	font-family: 'Quicksand', 'Arial, Helvetica, sans-serif';
+	font-weight: bold;
 	font-size: 40px;
 	margin-top: 50px;
 	margin-bottom: 0px;
 	width: 100%;
 	color: darkslategray;
 	
+}
+
+#baml {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+
+#baml img {
+	float: left;
+	margin-left: 215px;
+	border-radius: 50px;
+}
+
+#exp-text {
+	float: left;
+	margin-left: 40px;
+}
+#exp-text h4 {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	font-size: 27px;
+	text-align: left;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	color: peru;
+}
+
+#exp-text p1 {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	margin-top: 0px;
+	font-size: 18px;
+	
+	text-align: left;
+	color: dimgray;
+}
+
+
+#exp-text p {
+	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
+	margin-top: 0px;
+	font-size: 18px;
+	text-align: left;
+	color: dimgray;
 }
 
 #shekarEng {
@@ -133,28 +191,22 @@ h1 {
 	float: left;
 	margin-left: 215px;
 	border-radius: 50px;
+	margin-bottom: 50px;
 }
 
-#se-text {
-	float: left;
-	margin-left: 40px;
-}
-#se-text h4 {
-	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
-	font-size: 27px;
-	text-align: left;
-	margin-right: 100px;
-	margin-bottom: 10px;
-	color: peru;
+#orgs {
+	background-color: white;
 }
 
-
-#se-text p {
-	font-family: 'Calibri', 'Arial, Helvetica, sans-serif';
-	margin-top: 0px;
-	font-size: 18px;
-	text-align: left;
-	color: dimgray;
+#orgs p{
+	text-align: center;
+	font-family: 'Quicksand', 'Arial, Helvetica, sans-serif';
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	width: 100%;
+	color: darkslategray;
 }
 
 #wics {
@@ -266,6 +318,7 @@ h1 {
 
 #interests {
 	text-align: center;
+	background-color: #F6F6F6;
 }
 
 #interests p {
@@ -273,7 +326,8 @@ h1 {
 	margin-bottom: 30px;
 	text-align: center;
 	width: 100%;
-	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
+	font-family: 'Quicksand', 'Arial, Helvetica, sans-serif';
+	font-weight: bold;
 	font-size: 40px;
 	color: darkslategray
 }
@@ -291,6 +345,7 @@ ul.img-list li {
 	height: 200px;
 	width: 300px;
 	position: relative;
+	margin-bottom: 70px;
 }
 
 ul.img-list li img {
@@ -336,7 +391,8 @@ ul.img-list li:hover span.picText {
 .contact-txt {
 	margin-top: 200px;
 	text-align: center; 
-	font-family: 'Century Gothic', 'Arial, Helvetica, sans-serif';
+	font-family: 'Quicksand', 'Arial, Helvetica, sans-serif';
+	font-weight: bold;
 	font-size: 35px;
 	font-style: italic;
 }
@@ -360,7 +416,8 @@ ul.icon-list {
 
 ul.icon-list li {
 	display: inline-block;
-	margin: 2px;
+	margin: 10px;
+	margin-bottom: 50px;
 	position: relative;
 }
 
